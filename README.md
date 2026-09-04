@@ -6,16 +6,27 @@ Spam detection often fails in multilingual environments when systems are tuned o
 
 Team Member Contributions
 Aanya Godiyal : (Model Training, Architecture & UI)
+
 • Designed the core machine learning pipeline using Logistic Regression.
+
 • Built the feature extraction workflow using TfidfVectorizer (unigram + bigram text representation).
+
 • Calibrated prediction probabilities for customizable decision thresholds.
+
 • Managed model persistence and serialization (joblib/pickle).
+
 • Developed the interactive two-view Streamlit dashboard (Predictor interface & Analytics view).
 
 Mahi Jain : (Data Preprocessing & Statistical Analysis)
+
 • Curated, aligned, and unified multilingual Email and SMS datasets.
+
 • Developed the cleaning pipeline (URL/email handling, punctuation removal, regex cleaning, and UTF-8 Unicode encoding management).
+
 • Implemented language-aware stopword strategies preserving Devanagari script integrity.
+
 • Computed core classification statistics: Accuracy, Precision, Recall, and F1-Score.
+
 • Constructed the Confusion Matrix to isolate True Positives, False Positives, and False Negatives.
+
 • Performed error analysis on misclassified emails and SMS messages to diagnose model boundary errors.
